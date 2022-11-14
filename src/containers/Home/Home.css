@@ -1,0 +1,17 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 900px;
+}
+
+.show-btn {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: brown;
+  border: 1px solid #4685c3;
+  border-radius: 8px;
+  box-shadow: 1px 3px 3px 2px #646fb8;
+}

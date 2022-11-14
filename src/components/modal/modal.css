@@ -1,0 +1,31 @@
+.modal {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 900px;
+  min-height: 200px;
+  height: auto;
+  background: #bad1c2;
+  border-radius: 10px;
+  padding: 14px;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer {
+  margin: 10px 10px;
+}
+
+.modal-body {
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
